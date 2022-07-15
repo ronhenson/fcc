@@ -42,3 +42,4 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
         if has_expected_balls:
             num_chosen_balls += 1
     return round(num_chosen_balls / num_experiments, 3)
+

@@ -54,15 +54,3 @@ class Square(Rectangle):
     def __str__(self):
         return f'Square(side={self.width})'
 
-
-if __name__ == "__main__":
-
-    # rect = Rectangle(60, 6)
-    # rect.set_width(45)
-    # print(f'width = {rect.width}    height = {rect.height}')
-    # pic = rect.get_picture()
-    # print(pic)
-
-    sq = Square(5)
-    rect = Rectangle(15, 10)
-    print(rect.get_amount_inside(sq))
